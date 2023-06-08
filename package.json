@@ -62,7 +62,7 @@
   },
   "dependencies": {
     "colorette": "2.0.19",
-    "commander": "^9.1.0",
+    "commander": "^10.0.0",
     "debug": "4.3.4",
     "escalade": "^3.1.1",
     "esm": "^3.2.25",
@@ -127,12 +127,12 @@
     "mocha": "^10.0.0",
     "mock-fs": "^5.1.4",
     "mysql": "^2.18.1",
-    "mysql2": "^2.3.3",
+    "mysql2": "^3.2.0",
     "nyc": "^15.1.0",
     "oracledb": "^5.4.0",
     "pg": "^8.8.0",
     "pg-query-stream": "^4.2.4",
-    "prettier": "2.8.3",
+    "prettier": "2.8.7",
     "rimraf": "^3.0.2",
     "sinon": "^15.0.1",
     "sinon-chai": "^3.7.0",
@@ -143,8 +143,8 @@
     "tedious": "^14.4.0",
     "toxiproxy-node-client": "^2.0.6",
     "ts-node": "^10.9.1",
-    "tsd": "^0.25.0",
-    "typescript": "4.8.3"
+    "tsd": "^0.28.1",
+    "typescript": "5.0.4"
   },
   "buildDependencies": [
     "rimraf"
@@ -251,7 +251,8 @@
     ],
     "exclude": [
       "lib/dialects/oracle",
-      "lib/dialects/oracledb"
+      "lib/dialects/oracledb",
+      "test/**/*.spec.js"
     ]
   },
   "tsd": {
